@@ -4,12 +4,13 @@
   "description": "Example repo on how to use Kafka with Node",
   "main": "index.ts",
   "scripts": {
-    "start": "node index.ts",
+    "start": "node ./src/index.ts",
     "test": "node --test"
   },
   "keywords": [
     "kafka"
   ],
+  "type": "module",
   "author": "Thiago Martins",
   "license": "ISC",
   "devDependencies": {

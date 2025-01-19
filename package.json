@@ -1,0 +1,14 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "Example repo on how to use Kafka with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "kafka"
+  ],
+  "author": "Thiago Martins",
+  "license": "ISC"
+}

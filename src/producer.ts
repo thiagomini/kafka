@@ -8,7 +8,7 @@ export type CustomMessageFormat = {
 
 export type KeyProvider = (message: CustomMessageFormat) => string;
 
-export class ProducerService {
+export class producer {
   private readonly producerGateway: IProducerGateway;
   private readonly keyProvider: KeyProvider;
 

@@ -78,3 +78,14 @@ services:
       - kconnect
     ports:
       - 8080:8080
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+      - ./db/:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_PASSWORD: example
